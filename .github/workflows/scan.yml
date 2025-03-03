@@ -6,7 +6,7 @@ on:
       docker_image:
         description: 'The Docker image to scan'
         required: true
-        default: 'ethan42/ncompress:vulnerable'
+        default: 'gcc:latest'
 
 jobs:
   scout:
