@@ -6,7 +6,7 @@ on:
       docker_image:
         description: 'The Docker image to scan'
         required: true
-        default: 'gcc:latest'
+        default: 'bash:latest'
 
 jobs:
   scout:
